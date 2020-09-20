@@ -1,0 +1,16 @@
+form{
+margin-top: 5rem;
+}
+form input[name="city"],
+form input[name="country"] {
+  /* background-color: transparent; */
+  color:blue;
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+  border-radius: 0;
+}
+
+::placeholder{
+    color:rgb(16, 139, 0);
+    opacity: 1.2;
+}
